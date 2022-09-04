@@ -151,6 +151,10 @@ ol{
 .bg-g3 div{
     display: flex;
 }
+.margin-producto3{
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
     .bg-g3 div img{
     width: 96%;
     height: 80%;
@@ -159,6 +163,7 @@ ol{
 .img-price{
     flex-direction: column;
     justify-content: center;
+    border-right: solid #563C5C 1px;
 }
 .sku{
     font-size: 15px;
