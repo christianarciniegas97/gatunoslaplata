@@ -520,6 +520,7 @@ input[type=submit], input[type=reset] {
     }
     .todo-s-g{
         height:97px ;
+        padding-bottom: 30px;
     }
     p{
         font-size: 10px !important;
