@@ -6,9 +6,8 @@ html{
 body{
     background-attachment: fixed;
 	margin: 0%;
-    background-repeat: initial;
-    background-image: url(src/fondo/fondo.jpg);
-	background-size: cover;
+    background-color: black;
+
 }
 
 .logo{
