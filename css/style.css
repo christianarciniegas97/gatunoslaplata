@@ -6,65 +6,24 @@ html{
 body{
     background-attachment: fixed;
 	margin: 0%;
-    background-repeat: initial;
-    background-image: url(src/fondo/fondo.jpg);
-	background-size: cover;
+    background-color: black;
+    }
+.logo img{
+width: 25px;
+}
+.bg-violet-header{
+    background-color: #563C5C;
+}
+.a-tuuning{
+    font-size: 15px ;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;
+    list-style: none;
 }
 
-.logo{
-    z-index: 1;
-}
-.logo img{
-width: 50px;
-}
-header{
-background-color: #563C5C;
-justify-content: space-between;
-display: flex;
-position: sticky;
-top: 0%;
-align-items: center;
-}
-.posicion-logo{
-position: absolute;
-left: 0%;
-right: 0%;
-margin: auto;
-z-index: 0;
-}
-h1{
-    color: #00CCFF;
-    font-size: 2rem;
-    text-align: center;
-}
-h4{
-    color: #00CCFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-}
-nav{
-	z-index: 1;
-}
-    nav ul{
-        list-style: none;
-        display: inline-block;
-    }
-    nav ul li{
-        display: inline;
-		margin-right: 10px;
-    }
-            nav ul li a{
-                color:#ff8000;
-                text-decoration: none;
-                font-size: 1.5rem;
-                font-family:  'Montserrat', sans-serif;
-            } 
-						nav ul li a:hover{
-							color:#00CCFF;
-						}
 .imagen-fondo{
-	width: 99%;
+    width: 99%;
     margin: 5px;
 }
 .grid{
@@ -269,7 +228,7 @@ ol{
 .bloqueulti-foo{
     background-color: darkgrey;
     border: #563C5C solid 2px;
-    width: 97%;
+    width: 99%;
     padding: 1%;
     margin: 5px;
     display: inline-block;
@@ -545,16 +504,6 @@ input[type=submit], input[type=reset] {
     .ocultar-div{
         display:none;
         }
-    header{
-        position: sticky;
-    }
-    nav ul{
-        display: flex;
-        flex-direction: column;
-    }
-    nav ul li a{
-        font-size: 10px;
-    }
     
     .productos-mg{
         margin-left: 5px;
