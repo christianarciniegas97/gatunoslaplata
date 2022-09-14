@@ -475,6 +475,35 @@ input[type=submit], input[type=reset] {
 .img-w-prod{
     width: 100%;
 }
+@media (max-width: 375px) {
+    
+    #textsm-contacth3 {
+        font-size: 25px;
+    }
+    .f-column-sm{
+        flex-direction: column;
+    }
+    .w-sm{
+        width: 330px;
+    }
+    #w-sm-cont-p{
+        width: 300px;
+    }
+    #cg-h3{
+        font-size: 30px;
+        padding: 5px;
+    }
+    #sm-qsh{
+        font-size: 30px;
+        padding: 10px; 
+    }
+    #img-qs-pri{
+        width: 97%;
+        margin: 5px;
+    }
+
+
+}
 
 @media (max-width: 768px) {
 
@@ -514,4 +543,3 @@ input[type=submit], input[type=reset] {
     }
 
 }
-
