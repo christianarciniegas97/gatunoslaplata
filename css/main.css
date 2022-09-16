@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2? family= Aboreto & family= Montserrat:wght@300 & display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-attachment: fixed;
+  margin: 0%;
+  background-color: black;
+}
+
+.logo img {
+  width: 25px;
+}
+
+.bg-violet-header {
+  background-color: #563C5C;
+}
+
+.a-tuuning {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+.imagen-fondo {
+  width: 99%;
+  margin: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, minmax(250px, 550px));
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.grid-son1 {
+  grid-column: 1/4;
+  margin-left: 5px;
+}
+
+.bg-bor-g1 {
+  background-color: #563C5C;
+  border: #ff8000 solid 2px;
+}
+
+.bg-bor-g1 article h2 {
+  font-size: 35px;
+  font-family: "Aboreto", cursiva;
+  color: #ff8000;
+  text-align: center;
+  margin: 15px;
+}
+
+.bg-bor-g1 section article ol li p {
+  color: black;
+  font-size: 15px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  height: auto;
+}
+
+ol {
+  color: #00CCFF;
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.grid-son2 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.bg-bor-g2 {
+  background-color: #ff8000;
+  border: #563C5C 2px solid;
+}
+
+.grid-son2 section div {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-son2 section h3 {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Aboreto", cursiva;
+  color: #563C5C;
+  margin: 5px;
+}
+
+.grid-son2 section div p {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+.g2-orden-img {
+  width: 25%;
+  margin: 5px;
+}
+
+.div2-g2 {
+  margin-top: 10px;
+}
+
+.grid-son3 {
+  grid-column: 1/7;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+}
+
+.bg-g3 {
+  background-color: #00CCFF;
+  border: #563C5C 1px solid;
+}
+
+.bg-g3 div {
+  display: flex;
+}
+
+.margin-producto3 {
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+
+.bg-g3 div img {
+  width: 96%;
+  height: 80%;
+  margin: 5px;
+}
+
+.img-price {
+  flex-direction: column;
+  justify-content: center;
+  border-right: solid #563C5C 1px;
+}
+
+.sku {
+  font-size: 15px;
+  justify-content: center;
+}
+
+.price {
+  justify-content: center;
+  font-size: 15px;
+  font-family: "Montserrat";
+}
+
+.grid-son4 {
+  grid-column: 1/4;
+  margin-left: 5px;
+}
+
+.adoptacn {
+  display: flex;
+  flex-direction: column;
+}
+
+.adoptacn h3 {
+  font-size: 35px;
+  font-family: "Aboreto", cursiva;
+  text-align: center;
+  color: #717D7E;
+  margin: 10px;
+}
+
+.adoptacn p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.h3-patro {
+  font-size: 35px;
+  color: #563C5C;
+  font-family: "Aboreto", cursiva;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.patro-div-superior {
+  display: flex;
+  flex-direction: row;
+}
+
+.patro-div-superior div {
+  width: 395px;
+}
+
+.img-patro {
+  width: 100%;
+}
+
+.img-patro1 {
+  width: 100%;
+  padding-top: 22px;
+}
+
+.grid-son5 {
+  grid-column: 4/7;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.grid-lit1 {
+  display: flex;
+  flex-direction: column;
+  height: 164px;
+  margin-top: 25px;
+}
+
+.grid-lit2 {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  margin-top: 9px;
+}
+
+.grid-lit2 div {
+  width: 250px;
+  height: 343px;
+}
+
+.cuidado2 {
+  margin-left: 31px;
+  flex-direction: column;
+}
+
+.h4-cuidado {
+  font-size: 20px;
+  font-family: "Aboreto", cursiva;
+  color: #563C5C;
+  margin-top: 5px;
+}
+
+.img-cuidado {
+  width: 100%;
+}
+
+.bg-g3 p {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bg-g3 ul li {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bloqueulti-foo {
+  background-color: darkgrey;
+  border: #563C5C solid 2px;
+  width: 99%;
+  padding: 1%;
+  margin: 5px;
+  display: inline-block;
+}
+
+footer section a img {
+  width: 70px;
+}
+
+footer section p {
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 1%;
+  padding: 2px;
+}
