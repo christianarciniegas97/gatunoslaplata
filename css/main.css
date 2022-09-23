@@ -6,15 +6,10 @@ html {
 body {
   background-attachment: fixed;
   margin: 0%;
-  background-color: black;
 }
 
 .logo img {
   width: 25px;
-}
-
-.bg-violet-header {
-  background-color: #563C5C;
 }
 
 .a-tuuning {
@@ -49,7 +44,7 @@ body {
   border: #ff8000 solid 2px;
 }
 
-.bg-bor-g1 article h2 {
+.bg-bor-g1 article h1 {
   font-size: 35px;
   font-family: "Aboreto", cursiva;
   color: #ff8000;
@@ -67,9 +62,9 @@ body {
 }
 
 ol {
-  color: #00CCFF;
+  color: aqua;
   font-size: 1.25rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .grid-son2 {
@@ -85,14 +80,6 @@ ol {
 .grid-son2 section div {
   display: flex;
   flex-direction: row;
-}
-
-.grid-son2 section h3 {
-  text-align: center;
-  font-size: 25px;
-  font-family: "Aboreto", cursiva;
-  color: #563C5C;
-  margin: 5px;
 }
 
 .grid-son2 section div p {
@@ -164,27 +151,11 @@ ol {
   flex-direction: column;
 }
 
-.adoptacn h3 {
-  font-size: 35px;
-  font-family: "Aboreto", cursiva;
-  text-align: center;
-  color: #717D7E;
-  margin: 10px;
-}
-
 .adoptacn p {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   margin-left: 5px;
   margin-right: 5px;
-}
-
-.h3-patro {
-  font-size: 35px;
-  color: #563C5C;
-  font-family: "Aboreto", cursiva;
-  text-align: center;
-  margin-top: 10px;
 }
 
 .patro-div-superior {
@@ -284,4 +255,91 @@ footer section p {
   text-align: center;
   margin: 1%;
   padding: 2px;
+}
+
+@media (max-width: 375px) {
+  #textsm-contacth3 {
+    font-size: 25px;
+  }
+  .f-column-sm {
+    flex-direction: column;
+  }
+  .w-sm {
+    width: 330px;
+  }
+  #w-sm-cont-p {
+    width: 300px;
+  }
+  #cg-h3 {
+    font-size: 30px;
+    padding: 5px;
+  }
+  #sm-qsh {
+    font-size: 30px;
+    padding: 10px;
+  }
+  #img-qs-pri {
+    width: 97%;
+    margin: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .todo-s-g {
+    height: 97px;
+    padding-bottom: 30px;
+  }
+  p {
+    font-size: 10px !important;
+  }
+  .footer-mobile {
+    margin-top: 105px;
+    margin-right: 5px;
+  }
+  .bg-g3 ul li {
+    font-size: 10px;
+  }
+  .p-mobile-lit2 {
+    padding: 20px;
+  }
+  .ocultar-div {
+    display: none;
+  }
+  .productos-mg {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .footer-productos {
+    margin-right: 5px;
+  }
+}
+.tituloh3, .patro-h3 {
+  font-size: 30px;
+  font-family: "Aboreto", cursiva;
+  margin: 5px;
+  text-align: center;
+  color: #563C5C;
+}
+
+.patro-h3 {
+  color: #717D7E;
+  margin: 20px;
+}
+
+body {
+  background-color: black;
+}
+
+.bg-violet-header {
+  background-color: #ff8000;
+}
+
+.grid-cajas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

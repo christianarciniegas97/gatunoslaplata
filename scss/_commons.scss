@@ -1,0 +1,47 @@
+//variables de font famili
+$fontStyleP:'Montserrat', sans-serif;
+$fontStyleS:'Aboreto', cursiva;
+//extens
+.tituloh3{
+    font-size: 30px;
+    font-family:'Aboreto', cursiva;
+    margin: 5px ;
+    text-align: center;
+    color: #563C5C;
+}
+
+.patro-h3{
+    @extend .tituloh3;
+    color: #717D7E;
+    margin: 20px;
+}
+
+//maps
+
+$cbg:(
+    'pri': #563C5C ,
+    'sec': #ff8000 ,
+    'ter': #00CCFF ,
+    'cuart': #717D7E ,
+    'quint': black ,
+);
+body{
+    background-color: map-get($map: $cbg , $key: 'quint' );
+
+}
+.bg-violet-header{
+    background-color: map-get($map: $cbg ,$key: sec);
+}
+
+//mixins
+
+@mixin cajas ($dire,$alig,$just){
+    display: flex;
+    flex-direction: $dire;
+    align-items: $alig;
+    justify-content: $just;   
+}
+
+.grid-cajas{
+    @include cajas(column,center,center) 
+}

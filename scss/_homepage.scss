@@ -1,28 +1,17 @@
 @import url('https://fonts.googleapis.com/css2? family= Aboreto & family= Montserrat:wght@300 & display=swap');
-
-$colorPrincipal: #563C5C;
-$colorSecun: #ff8000;
-$colorTerci:#00CCFF;
-$fontStyleP:'Montserrat', sans-serif;
-$fontStyleS:'Aboreto', cursiva;
-
 html{
     font-size: 62.5%;
 }
 body{
     background-attachment: fixed;
 	margin: 0%;
-    background-color: black;
     }
 .logo img{
 width: 25px;
 }
-.bg-violet-header{
-    background-color: $colorPrincipal;
-}
 .a-tuuning{
     font-size: 15px ;
-    font-family: $fontStyleP;
+    font-family: 'Montserrat', sans-serif;
     color: black;
     text-decoration: none;
     list-style: none;
@@ -46,14 +35,14 @@ width: 25px;
 
 }
 .bg-bor-g1{
-    background-color: $colorPrincipal;
-    border: $colorSecun solid 2px;   
+    background-color: #563C5C;
+    border: #ff8000 solid 2px;   
 }
 
-    .bg-bor-g1 article h2{
+    .bg-bor-g1 article h1{
         font-size: 35px;
-        font-family: $fontStyleS;
-        color: $colorSecun;
+        font-family: 'Aboreto', cursiva;
+        color: #ff8000;
         text-align: center;
         margin: 15px;
     }
@@ -61,35 +50,28 @@ width: 25px;
             color: black;
             font-size: 15px;
             text-align: left;
-            font-family: $fontStyleP;
+            font-family: 'Montserrat', sans-serif;
             padding: 10px;
             height: auto;
             }
 ol{
-    color: $colorTerci;
+    color: aqua;
     font-size: 1.25rem;
-    font-family: $fontStyleP;
+    font-family:'Roboto Condensed', sans-serif;
 }           
 .grid-son2{
     grid-column-start: 4;
     grid-column-end: 6;
 }
 .bg-bor-g2{
-    background-color: $colorSecun;
-    border: $colorPrincipal 2px solid;
+    background-color: #ff8000;
+    border: #563C5C 2px solid;
 }
 .grid-son2 section div{
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
 }
-    .grid-son2 section h3{
-        text-align: center;
-        font-size: 25px;
-        font-family:$fontStyleS;
-        color: $colorPrincipal;
-        margin: 5px;
-
-    }
+    
         .grid-son2 section div p{
             font-size: 15px;
             font-family: 'Montserrat', sans-serif;
@@ -147,26 +129,14 @@ ol{
     display: flex;
     flex-direction: column;
 }
-    .adoptacn h3{
-        font-size: 35px;
-        font-family:'Aboreto', cursiva;
-        text-align: center;
-        color: #717D7E ;
-        margin: 10px;
-    }
+
     .adoptacn p{
         font-size: 16px;
         font-family: 'Montserrat', sans-serif;
         margin-left: 5px;
         margin-right: 5px;
     }
-.h3-patro{
-    font-size: 35px;
-    color: #563C5C;
-    font-family:'Aboreto', cursiva;
-    text-align: center;
-    margin-top: 10px;
-}
+
 .patro-div-superior{
     display: flex;
     flex-direction: row;
@@ -250,3 +220,4 @@ ol{
             margin: 1%;
             padding: 2px;
         }
+    
