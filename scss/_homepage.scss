@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2? family= Aboreto & family= Montserrat:wght@300 & display=swap');
+@import "_commons";
+
 html{
     font-size: 62.5%;
 }
+
 body{
     background-attachment: fixed;
 	margin: 0%;
+    background-color: map-get($map: $cbg , $key: 'quint' );
     }
+
+.bg-violet-header{
+    background-color: map-get($map: $cbg ,$key: 'pri');
+}
 .logo img{
 width: 25px;
 }
+
 .a-tuuning{
     font-size: 15px ;
     font-family: 'Montserrat', sans-serif;
@@ -58,7 +67,8 @@ ol{
     color: aqua;
     font-size: 1.25rem;
     font-family:'Roboto Condensed', sans-serif;
-}           
+} 
+          
 .grid-son2{
     grid-column-start: 4;
     grid-column-end: 6;
@@ -66,6 +76,7 @@ ol{
 .bg-bor-g2{
     background-color: #ff8000;
     border: #563C5C 2px solid;
+    
 }
 .grid-son2 section div{
     display: flex;

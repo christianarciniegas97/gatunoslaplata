@@ -25,13 +25,6 @@ $cbg:(
     'cuart': #717D7E ,
     'quint': black ,
 );
-body{
-    background-color: map-get($map: $cbg , $key: 'quint' );
-
-}
-.bg-violet-header{
-    background-color: map-get($map: $cbg ,$key: sec);
-}
 
 //mixins
 
@@ -45,3 +38,4 @@ body{
 .grid-cajas{
     @include cajas(column,center,center) 
 }
+

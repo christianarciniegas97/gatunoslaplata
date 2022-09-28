@@ -1,4 +1,6 @@
-@media (max-width: 375px) {
+@import"_commons";
+
+@media (max-width: 400px) {
     
     #textsm-contacth3 {
         font-size: 25px;
@@ -25,7 +27,14 @@
         margin: 5px;
     }
 
-
+    #org-adop-sec{
+        width: 100%;
+    }
+    .sm-art-adop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 768px) {

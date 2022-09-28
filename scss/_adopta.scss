@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2? family= Aboreto & family= Montserrat:wght@300 & display=swap');
+@import "_commons";
+
+.main-adopta{
+	display: flex;
+	flex-wrap: wrap;
+}
+    .main-adopta section article{
+        display: flex;
+    }
+        
+        .main-adopta section{
+            background-color: #ff8000;
+            border: #563C5C solid 1px;
+            margin-top: 20px;
+                margin-left: 2px;
+                margin-right: 2px;
+                width: calc(50% - 36px);
+                padding: 15px;
+            }
+            .main-adopta section article img{
+                width: 250px;
+                margin-right: 20px;
+                border: #00CCFF solid 1px;
+            }
+    

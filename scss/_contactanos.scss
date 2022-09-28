@@ -1,0 +1,79 @@
+
+
+.main-contactanos{
+	background-color: #fcfcda;
+	border: #563C5C 1px solid;
+	margin: 5px;
+}
+ .main-contactanos h2{
+	color: #563C5C;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+ }
+ .div-fordivisor{
+	display: flex;
+	flex-direction: column;
+ }
+ .formulario{
+	display: flex;
+  justify-content: center;
+ }
+ .formulario div{
+	display: flex;
+  flex-direction: column;
+ }
+ .formulario div div{
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 10px;
+}
+.formulario label{
+ font-size: 20px;
+ margin-right: 5px;
+}
+.section-botonesar{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.section-botonesar div{
+	margin-right: 20px;
+}
+input[type=submit], input[type=reset] {
+	background-color: #563C5C;
+	border: none;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #00CCFF;
+	padding: 16px 27px;
+	margin: 20px 20px;
+	cursor: pointer;
+}
+.ultimasection{
+	background-color: #00CCFF;
+	border: #563C5C 1px solid;
+	margin: 5px;
+	display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ultimasection h3{
+	color: #563C5C;
+	font-size: 35px;
+}
+.ultimasection-div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.ultimasection iframe{
+	margin: 10px;
+	border: #ff8000 solid 1px;
+}
+.ultimasection-div p{
+	font-size: 15px;
+	color: #563C5C;
+	width: 45%;
+	text-align: center;
+
+}
