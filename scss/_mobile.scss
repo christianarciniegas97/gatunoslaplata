@@ -1,6 +1,6 @@
 @import"_commons";
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     
     #textsm-contacth3 {
         font-size: 25px;
@@ -35,24 +35,27 @@
         flex-direction: column;
         align-items: center;
     }
+    #corrector-bg5{
+        height: 100%;
+        object-fit: cover;
+        object-position: center left;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
 
     .flex{
         display: flex;
         flex-direction: column;
     }
     .todo-s-g{
-        height:97px ;
-        padding-bottom: 30px;
+        margin-left: 5px;
     }
     p{
-        font-size: 10px !important;
+        font-size: 16px
     }
     .footer-mobile{
         margin-top: 105px;
-        margin-right: 5px;
 
     }
     .bg-g3 ul li{
@@ -75,3 +78,4 @@
     }
 
 }
+

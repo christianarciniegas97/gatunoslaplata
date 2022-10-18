@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2? family= Aboreto & family= Montserrat:wght@300 & display=swap");
-@import url("https://fonts.googleapis.com/css2? family= Aboreto & family= Montserrat:wght@300 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:wght@300&display=swap");
 .tituloh3, .patro-h3 {
   font-size: 30px;
   font-family: "Aboreto", cursiva;
@@ -81,7 +80,7 @@ body {
 
 .bg-bor-g1 section article ol li p {
   color: black;
-  font-size: 15px;
+  font-size: 14px;
   text-align: left;
   font-family: "Montserrat", sans-serif;
   padding: 10px;
@@ -110,7 +109,7 @@ ol {
 }
 
 .grid-son2 section div p {
-  font-size: 15px;
+  font-size: 14px;
   font-family: "Montserrat", sans-serif;
   text-align: left;
 }
@@ -153,12 +152,11 @@ ol {
 
 .img-price {
   flex-direction: column;
-  justify-content: center;
   border-right: solid #563C5C 1px;
 }
 
 .sku {
-  font-size: 15px;
+  font-size: 14px;
   justify-content: center;
 }
 
@@ -179,7 +177,7 @@ ol {
 }
 
 .adoptacn p {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Montserrat", sans-serif;
   margin-left: 5px;
   margin-right: 5px;
@@ -213,8 +211,6 @@ ol {
 .grid-lit1 {
   display: flex;
   flex-direction: column;
-  height: 164px;
-  margin-top: 25px;
 }
 
 .grid-lit2 {
@@ -225,8 +221,8 @@ ol {
 }
 
 .grid-lit2 div {
-  width: 250px;
-  height: 343px;
+  width: 50%;
+  height: 350px;
 }
 
 .cuidado2 {
@@ -246,13 +242,13 @@ ol {
 }
 
 .bg-g3 p {
-  font-size: 15px;
+  font-size: 11px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 
 .bg-g3 ul li {
-  font-size: 13px;
+  font-size: 11px;
   font-family: "Montserrat", sans-serif;
   text-align: left;
   margin-top: 8px;
@@ -327,6 +323,26 @@ footer section p {
   width: 250px;
   margin-right: 20px;
   border: #00CCFF solid 1px;
+}
+
+.tituloh3, .patro-h3 {
+  font-size: 30px;
+  font-family: "Aboreto", cursiva;
+  margin: 5px;
+  text-align: center;
+  color: #563C5C;
+}
+
+.patro-h3 {
+  color: #717D7E;
+  margin: 20px;
+}
+
+.grid-cajas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-productos {
@@ -436,12 +452,32 @@ footer section p {
 }
 
 .price-productos {
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
 }
 
 .img-w-prod {
   width: 100%;
+}
+
+.tituloh3, .patro-h3 {
+  font-size: 30px;
+  font-family: "Aboreto", cursiva;
+  margin: 5px;
+  text-align: center;
+  color: #563C5C;
+}
+
+.patro-h3 {
+  color: #717D7E;
+  margin: 20px;
+}
+
+.grid-cajas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-quienesomos {
@@ -458,7 +494,7 @@ footer section p {
 }
 
 .section-quienesomos div {
-  font-size: 15px;
+  font-size: 14px;
   font-family: "Montserrat", sans-serif;
   border: #00CCFF solid 2px;
   text-align: center;
@@ -478,6 +514,26 @@ footer section p {
 
 .section-divmaps iframe {
   margin-bottom: 20px;
+}
+
+.tituloh3, .patro-h3 {
+  font-size: 30px;
+  font-family: "Aboreto", cursiva;
+  margin: 5px;
+  text-align: center;
+  color: #563C5C;
+}
+
+.patro-h3 {
+  color: #717D7E;
+  margin: 20px;
+}
+
+.grid-cajas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-contactanos {
@@ -591,7 +647,7 @@ input[type=submit], input[type=reset] {
   justify-content: center;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   #textsm-contacth3 {
     font-size: 25px;
   }
@@ -624,22 +680,27 @@ input[type=submit], input[type=reset] {
     flex-direction: column;
     align-items: center;
   }
+  #corrector-bg5 {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center left;
+       object-position: center left;
+  }
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .flex {
     display: flex;
     flex-direction: column;
   }
   .todo-s-g {
-    height: 97px;
-    padding-bottom: 30px;
+    margin-left: 5px;
   }
   p {
-    font-size: 10px !important;
+    font-size: 16px;
   }
   .footer-mobile {
     margin-top: 105px;
-    margin-right: 5px;
   }
   .bg-g3 ul li {
     font-size: 10px;
@@ -657,23 +718,4 @@ input[type=submit], input[type=reset] {
   .footer-productos {
     margin-right: 5px;
   }
-}
-.tituloh3, .patro-h3 {
-  font-size: 30px;
-  font-family: "Aboreto", cursiva;
-  margin: 5px;
-  text-align: center;
-  color: #563C5C;
-}
-
-.patro-h3 {
-  color: #717D7E;
-  margin: 20px;
-}
-
-.grid-cajas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }

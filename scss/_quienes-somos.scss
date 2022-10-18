@@ -1,3 +1,4 @@
+@import "_commons";
 
 .section-quienesomos{
 	background-color: #563C5C;
@@ -7,11 +8,11 @@
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 35px;
 	margin: 0;
-  padding-top: 20px;
+ 	padding-top: 20px;
 	padding-bottom: 10px;
 }
 .section-quienesomos div{
-	font-size: 15px;
+	font-size: 14px;
 	font-family: 'Montserrat', sans-serif;
 	border: #00CCFF solid 2px;
 	text-align: center;
@@ -22,7 +23,7 @@
 .section-divmaps h4{
 	color: #563C5C;
 	margin: 0;
-  padding-top: 20px;
+ 	padding-top: 20px;
 	padding-bottom: 10px;
 	font-size: 30px;
 }
